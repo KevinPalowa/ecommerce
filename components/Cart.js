@@ -91,9 +91,7 @@ export default function Cart() {
                           <AiOutlineMinus />
                         </span>
 
-                        <span className="num" onClick>
-                          {item.quantity}
-                        </span>
+                        <span className="num">{item.quantity}</span>
                         <span
                           className="plus"
                           onClick={() =>
